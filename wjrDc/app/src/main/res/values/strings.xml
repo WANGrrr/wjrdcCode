@@ -1,0 +1,130 @@
+<resources>
+    <string name="app_name">ก้อนเมฆเงินสด</string>
+    <string name="app_page">com.cashloans.cashcloud</string>
+
+
+    <string name="common_permission_denied">取消</string>
+
+    <string name="common_permission_alert">授权提醒</string>
+    <string name="common_permission_fail_1">授权失败，请正确授予权限</string>
+    <string name="common_permission_fail_2">获取权限失败，请手动授予权限</string>
+    <string name="common_permission_fail_3">获取权限失败，请手动授予%s</string>
+    <string name="common_permission_fail_4">没有授予后台定位权限，请您选择"始终允许"</string>
+    <string name="common_permission_goto">前往授权</string>
+
+    <string name="common_permission_calendar">日历权限</string>
+    <string name="common_permission_camera">相机权限</string>
+    <string name="common_permission_contacts">通讯录权限</string>
+    <string name="common_permission_location">定位权限</string>
+    <string name="common_permission_location_background">后台定位权限</string>
+    <string name="common_permission_microphone">麦克风权限</string>
+    <string name="common_permission_phone">电话权限</string>
+    <string name="common_permission_call_log">通话记录权限</string>
+    <string name="common_permission_sensors">身体传感器权限</string>
+    <string name="common_permission_activity_recognition">健身运动权限</string>
+    <string name="common_permission_sms">短信权限</string>
+    <string name="common_permission_storage">存储权限</string>
+
+    <string name="common_permission_install">安装应用权限</string>
+    <string name="common_permission_notification">通知栏权限</string>
+    <string name="common_permission_window">悬浮窗权限</string>
+    <string name="common_permission_setting">系统设置权限</string>
+
+
+    <string name="timeoutstr">网络超时</string>
+    <string name="error_network">网络错误, 请检查你的网络</string>
+    <string name="reflash">立即刷新</string>
+
+    <string name="error_timeout">网络超时</string>
+    <string name="error_json_syntax">解析错误</string>
+    <string name="error_unknown">系统繁忙，请稍后再试</string>
+    <string name="permission_camera_storage_denied">请授予相机和SD卡存储权限</string>
+    <string name="launcher_title">要使用ก้อนเมฆเงินสด,必须打开以下访问权限:</string>
+    <string name="launcher_xiangji">相机</string>
+    <string name="launcher_xiangjidetail">在上传头像和上传图片时获取手机相册权限来获取图片</string>
+    <string name="launcher_operator">通讯录</string>
+    <string name="launcher_operator_detail">是否允许使用通讯录 来完善你的个人资料 在紧急情况发生的时候,可以联系到您的朋友</string>
+    <string name="launcher_weizi">位置</string>
+    <string name="launcher_weizi_detail">启用位置权限将导致在下款的时候会自动获取您的位置，确保您在常用位置登录,以免金钱被盗</string>
+    <string name="launcher_button">我同意开启以上权限，继续</string>
+    <string name="sms_permission">短信权限</string>
+    <string name="sms_desprition">SMS数据可帮助我们了解您的收入和支出并进行风险审计。</string>
+
+    <string name="idcard_title">实名认证</string>
+    <string name="idcard_front">身份证正面</string>
+    <string name="idcard_shoot">拍照获取身份证</string>
+    <string name="idcard_shoot_again">照片上传失败,请重新拍照</string>
+    <string name="idcard_text">请确认以下信息是否准确，若信息采集有误，请手动修改调整，务必保证信息准确，否则将无法获取贷，必须为本人身份，否则无法借款</string>
+    <string name="idcard_OCRError">身份证识别失败 请重新拍照</string>
+
+
+    <!--请输入你的全名-->
+    <string name="input_full_name">请输入你的全名</string>
+    <!--请输入您的证件号码-->
+    <string name="input_id_card">请输入您的证件号码</string>
+    <string name="check_id_card">请检查您的证件号码</string>
+    <!--请选择性别-->
+    <string name="choise_sex">choise_sex</string>
+    <!--请选择公历生日-->
+    <string name="choise_birthday">请选择公历生日</string>
+
+    <!--确认提交-->
+    <string name="rz_tijiao">确认提交</string>
+    <!--全名-->
+    <string name="idcard_name">全名</string>
+    <!--小名-->
+    <string name="idsmall_name">小名</string>
+    <!--请输入小名-->
+    <string name="small_name_tip">请输入小名</string>
+    <!--证件号码-->
+    <string name="idcard_id_num">证件号码</string>
+    <!--姓-->
+    <string name="idcard_FirstName">First Name</string>
+    <!--Middle Name(Optional)-->
+    <string name="idcard_Middle_name">Middle Name(Optional)</string>
+    <!--Last Name-->
+    <string name="idcard_Last_name">Last Name</string>
+    <string name="operator_relation_choose">请选择</string>
+    <!--性别-->
+    <string name="idcard_sex">性别</string>
+    <!--请选择公历生日-->
+    <string name="idcard_birthday">请选择公历生日</string>
+    <!--男-->
+    <string name="male">男</string>
+    <!--女-->
+    <string name="womain">女</string>
+    <!--请拍摄照片-->
+    <string name="scan_idcard">请拍摄照片</string>
+    <!--上传图片-->
+    <string name="scan_idcardPhoto">上传图片</string>
+    <!--上传图片-->
+    <string name="scan_idcardPhotoContent">请确保图像清晰，四角完整</string>
+    <string name="year">年</string>
+    <string name="month">月</string>
+    <string name="day">日</string>
+    <string name="man">男</string>
+    <string name="woman">女</string>
+
+    <string name="birthday_error">出生日期格式错误,请手动选择出生年月</string>
+    <string name="operator">运营商认证</string>
+    <string name="operator_select">请选择运营商</string>
+    <string name="operator_title">添加紧急联系人</string>
+    <string name="operator_hint">请填写您的真实个人信息，有助于提高审核速度</string>
+    <string name="operator_first_contact">第一位紧急联系人</string>
+    <string name="operator_second_contact">第二位紧急联系人</string>
+    <string name="contants_must_different">联系人不可重复</string>
+    <string name="operator_contact_relation">关系</string>
+    <string name="operator_contact_name">姓名</string>
+    <string name="operator_contact_phone">电话</string>
+    <string name="operator_contact_email">邮箱</string>
+
+    <string name="operator_name_fill_in">请填写姓名</string>
+    <string name="operator_phone_fill_in">请填写联系方式</string>
+    <string name="operator_continue_auth">继续认证</string>
+    <string name="spouse">配偶</string>
+    <string name="relatives">亲属</string>
+    <string name="friend">朋友</string>
+
+    <string name="common_sure">确定</string>
+    <string name="common_cancel">取消</string>
+</resources>

@@ -1,0 +1,111 @@
+
+<resources>
+    <string name="app_name">ก้อนเมฆเงินสด</string>
+    <!--error-->
+    <string name="error_timeout">หมดเวลาการเชื่อต่อเครือข่าย</string>
+    <string name="error_network"> เครือข่ายข้อผิดพลาด โปรดตรวจสอบเครือข่ายของคุณ</string>
+    <string name="error_json_syntax">เกิดข้อผิดพลาดในการวิเคราะห์</string>
+    <string name="error_unknown">ระบบเกิดข้อขัดข้อง โปรดลองอีกครั้งในภายหลัง</string>
+    <string name="reflash">รีเฟรชเดี๋ยวนี้</string>
+    <string name="app_page">com.cashloans.cashcloud</string>
+
+
+    <string name="permission_camera_storage_denied">โปรดอนุญาติการจัดเก็บภาพจากกล้องและการ์ด SD </string>
+
+    <string name="sms_permission">สิทธิ์ทาง SMS</string>
+    <string name="sms_desprition">ข้อมูล SMS เพื่อช่วยให้เราเข้าใจรายได้และค่าใช้จ่ายของคุณและดำเนินการตรวจสอบความเสี่ยง นอกจากนี้ยังใช้สำหรับการกรอกยืนยัน SMS เมื่อผู้ใช้เข้าสู่ระบบ</string>
+
+    <string name="common_sure">ยืนยัน</string>
+    <string name="common_cancel">ยกเลิก</string>
+
+
+    <string name="operator">การรับรองผู้ประกอบการ</string>
+    <string name="operator_select">โปรดเลือกตัวดำเนินการ</string>
+    <string name="operator_title">เพิ่มผู้ติดต่อฉุกเฉิน</string>
+
+    <string name="operator_hint">กรุณากรอกข้อมูลส่วนตัวของคุณด้วยความเป็นจริง เพื่อช่วยเพิ่มความเร็วในการตรวจสอบ</string>
+    <string name="operator_first_contact">ผู้ติดต่อฉุกเฉินคนที่ 1</string>
+    <string name="operator_second_contact">ผู้ติดต่อฉุกเฉินคนที่ 2</string>
+    <string name="contants_must_different">ติดต่อไม่ซ้ำกัน</string>
+    <string name="operator_contact_relation">ความสัมพันธ์</string>
+    <string name="operator_contact_name">ชื่อ-สกุล</string>
+    <string name="operator_contact_email">Email</string>
+
+    <string name="operator_contact_phone">เบอร์โทรศัพท์</string>
+    <string name="operator_relation_choose">โปรดเลือก</string>
+    <string name="operator_name_fill_in">กรุณากรอกชื่อ-สกุล</string>
+    <string name="operator_phone_fill_in">กรุณากรอกข้อมูลติดต่อ</string>
+    <string name="operator_continue_auth">ดำเนินการตรวจสอบต่อไป</string>
+    <string name="idcard_OCRError">"การจดจำบัตรประชาชนล้มเหลว โปรดถ่ายรูปใหม"</string>
+
+
+    <!--บัตรประจำตัวประชาชน-->
+    <string name="idcard_title">บัตรประจำตัวประชาชน</string>
+    <string name="idcard_front">ด้านหน้าบัตรประชาชน</string>
+    <!--ถ่ายภาพบัตรประจำตัวประชาชน-->
+    <string name="idcard_shoot">ถ่ายภาพบัตรประจำตัวประชาชน</string>
+    <string name="idcard_shoot_again">อัปโหลดรูปภาพไม่สำเร็จโปรดถ่ายภาพอีกครั้ง</string>
+    <!--ภาพบัตรประจำตัวประชาชนผู้กู้-->、
+    <!--โปรดตรวจสอบและยืนยันว่าข้อมูลต่อไปนี้ถูกต้องหรือไม่ หากข้อมูลไม่ถูกต้อง โปรดดำเนินการแก้ไขและปรับเปลี่ยน โปรดตรวจสอบให้แน่ใจว่าข้อมูลถูกต้อง มิฉะนั้นจะไม่สามารถทำการกู้ยืมเงินได้-->
+    <string name="idcard_text">โปรดตรวจสอบและยืนยันว่าข้อมูลต่อไปนี้ถูกต้องหรือไม่ หากข้อมูลไม่ถูกต้อง โปรดดำเนินการแก้ไขและปรับเปลี่ยน โปรดตรวจสอบให้แน่ใจว่าข้อมูลถูกต้อง มิฉะนั้นจะไม่สามารถทำการกู้ยืมเงินได้ จำต้องใช้บัตรประชาชนของผู้กู้เงิน มิฉะนั้นจะไม่สามารถทำการกู้เงินกับทางบริษัทได้</string>
+
+    <!--姓-->
+    <string name="idcard_FirstName">First Name</string>
+    <!--Middle Name(Optional)-->
+    <string name="idcard_Middle_name">Middle Name(Optional)</string>
+    <!--Last Name-->
+    <string name="idcard_Last_name">Last Name</string>
+
+
+    <!--上传图片-->
+    <string name="scan_idcardPhotoContent">Please make sure the image is clear and the four corners are complete</string>
+
+
+    <!--ชื่อจริง-->
+    <string name="idcard_name">ชื่อจริง</string>
+    <!--ชื่อเล่น-->
+    <string name="idsmall_name">ชื่อเล่น</string>
+    <!--โปรดกรอกชื่อเล่น-->
+    <string name="small_name_tip">โปรดกรอกชื่อเล่น</string>
+    <!--เลขประจำตัว-->
+    <string name="idcard_id_num">เลขประจำตัว</string>
+    <!--เพศ-->
+    <string name="idcard_sex">เพศ</string>
+    <!--โปรดเลือกวันเกิด (แบบคริสต์ศักราช)-->
+    <string name="idcard_birthday">โปรดเลือกวันเกิด (แบบคริสต์ศักราช)</string>
+    <!--ชาย-->
+    <string name="male">ชาย</string>
+    <!--หญิง-->
+    <string name="womain">หญิง</string>
+    <!--กรุณาถ่ายภาพ-->
+    <string name="scan_idcard">กรุณาถ่ายภาพ</string>
+    <!--กรุณากรอกชื่อ-สกุลของท่าน-->
+    <string name="input_full_name">กรุณากรอกชื่อ-สกุลของท่าน</string>
+    <!--กรุณากรอกเลขประจำตัวของท่าน-->
+    <string name="input_id_card">กรุณากรอกเลขประจำตัวของท่าน</string>
+    <string name="check_id_card">กรุณาตรวจสอบเลขประจำตัวของท่าน</string>
+    <!--กรุณาเลือกเพศ-->
+    <string name="choise_sex">choise_sex</string>
+    <!--โปรดเลือกวันเกิด (แบบคริสต์ศักราช)-->
+    <string name="choise_birthday">โปรดเลือกวันเกิด (แบบคริสต์ศักราช)</string>
+
+    <!--ยืนยันการส่ง-->
+    <string name="rz_tijiao">Confirm</string>
+
+    <string name="man">ชาย</string>
+    <string name="woman">หญิง</string>
+    <string name="year">ปี</string>
+    <string name="month">เดือน</string>
+    <string name="day">วัน</string>
+    <string name="spouse">คู่สมรส</string>
+    <string name="relatives">ญาติ</string>
+    <string name="friend">เพื่อน</string>
+    <string name="launcher_title">ในการใช้ Uwallet ต้องเปิดสิทธิ์การเข้าถึงต่อไปนี้:</string>
+    <string name="launcher_xiangji">สิทธิ์ของกล้อง</string>
+    <string name="launcher_xiangjidetail">การเปิดใช้งานการอนุญาตกล้องจะทำให้อุปกรณ์เคลื่อนที่ของคุณสามารถอัปโหลดรูปภาพได้</string>
+    <string name="launcher_operator">สิทธิ์ในสมุดที่อยู่</string>
+    <string name="launcher_operator_detail">การเปิดใช้งานการอนุญาตสมุดที่อยู่จะทำให้อุปกรณ์เคลื่อนที่ของคุณสามารถเลือกรายชื่อติดต่อได้อย่างง่ายดายและคุณสามารถติดต่อเพื่อนของคุณได้ในกรณีฉุกเฉิน</string>
+    <string name="launcher_weizi">สิทธิ์เข้าถึงตำแหน่ง</string>
+    <string name="launcher_weizi_detail">การเปิดใช้การอนุญาตตำแหน่งจะทำให้ระบบได้รับตำแหน่งของคุณโดยอัตโนมัติเมื่อทำการชำระเงินตรวจสอบให้แน่ใจว่าคุณเข้าสู่ระบบในตำแหน่งที่ใช้บ่อยเพื่อป้องกันไม่ให้เงินถูกขโมย</string>
+    <string name = "launcher_button"> ฉันตกลงที่จะเปิดการอนุญาตข้างต้นดำเนินการต่อ </string>
+</resources>

@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/bg"
+
+    android:gravity="center_horizontal">
+
+ <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_centerInParent="true"
+        android:gravity="center"
+        android:theme="@android:style/Theme.Translucent"
+        >
+        <ImageView
+            android:id="@+id/img"
+            android:layout_width="125dp"
+            android:layout_height="125dp"
+            android:indeterminateBehavior="repeat"
+            android:layout_gravity="center_horizontal"
+            android:indeterminateTint="@color/colorAccent"></ImageView>
+
+        <cn.bingoogolapple.progressbar.BGAProgressBar
+            style="@android:style/Widget.ProgressBar.Horizontal"
+            android:layout_gravity="center_horizontal"
+            android:id="@+id/progressbar"
+            android:layout_width="180dp"
+            android:layout_height="16dp"
+            android:layout_marginTop="40dp"
+            android:padding="15dp"
+            android:progress="0"
+            app:bga_pb_isCapRounded="true"
+            app:bga_pb_isHiddenText="false"
+            app:bga_pb_mode="horizontal"
+            app:bga_pb_reachedColor="@color/texhui"
+            app:bga_pb_reachedHeight="6dp"
+            app:bga_pb_textColor="@color/texhui"
+            app:bga_pb_textMargin="8dp"
+            app:bga_pb_textSize="14sp"
+            app:bga_pb_unReachedColor="#e2f0ee"
+            app:bga_pb_unReachedHeight="6dp"
+            />
+    </LinearLayout>
+
+</RelativeLayout>

@@ -1,0 +1,352 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/id_main_lay"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white"
+    android:orientation="vertical"
+    android:padding="@dimen/liveness_15">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/liveness_24"
+        android:orientation="horizontal">
+        <RelativeLayout
+            android:id="@+id/id_back"
+            android:layout_marginLeft="@dimen/liveness_20"
+
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            >
+            <ImageView
+                android:id="@+id/id_back2"
+                android:layout_centerInParent="true"
+                android:src="@mipmap/back"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" />
+        </RelativeLayout>
+
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:text="@string/operator"
+            android:textSize="17sp"
+            android:textStyle="bold"
+            android:textAlignment="center"
+            android:textColor="@color/black33"
+            android:layout_weight="1"
+            android:gravity="center"
+            />
+
+        <ImageView
+            android:id="@+id/id_back1"
+            android:layout_width="14dp"
+            android:layout_height="14dp"
+            android:layout_margin="13dp"></ImageView>
+
+    </LinearLayout>
+    <Space
+        android:layout_width="0dp"
+        android:layout_height="@dimen/liveness_15"></Space>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/user_input"
+        android:padding="15dp"
+        android:lineSpacingMultiplier="1.5"
+        android:textSize="12sp"
+        android:text="@string/operator_hint"
+        android:textColor="@color/texhui"/>
+    <Space
+        android:layout_width="0dp"
+        android:layout_height="@dimen/liveness_15"></Space>
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+            android:background="@drawable/idcard_bg"
+            android:padding="@dimen/liveness_20"
+            >
+
+
+
+
+            <androidx.constraintlayout.widget.ConstraintLayout
+                android:id="@+id/cl_operator_first_contact"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@color/white"
+                android:layout_marginTop="@dimen/liveness_15"
+                >
+
+                <TextView
+                    android:id="@+id/tv_operator_first_contact_label"
+                    android:layout_width="wrap_content"
+                    android:layout_height="48dp"
+                    android:gravity="center"
+                    android:text="@string/operator_first_contact"
+                    android:textColor="@color/black33"
+                    android:textSize="17sp"
+                    app:layout_constraintLeft_toLeftOf="parent"
+                    app:layout_constraintTop_toTopOf="parent"
+                    />
+
+
+
+                <TextView
+                    android:id="@+id/tv_operator_first_contact_name_label"
+                    android:layout_width="wrap_content"
+                    android:layout_height="48dp"
+                    android:gravity="center_vertical"
+                    android:text="@string/operator_contact_name"
+                    android:textColor="@color/black66"
+                    android:textSize="14sp"
+                    app:layout_constraintLeft_toLeftOf="parent"
+                    app:layout_constraintTop_toBottomOf="@id/tv_operator_first_contact_label"
+                    />
+
+                <EditText
+                    android:id="@+id/diyigeName"
+                    android:layout_width="match_parent"
+                    android:layout_height="48dp"
+                    android:background="@null"
+                    android:drawableEnd="@mipmap/ic_operator_contact"
+                    android:drawablePadding="10dp"
+                    android:focusable="false"
+                    android:gravity="end|center_vertical"
+                    android:hint="@string/operator_name_fill_in"
+                    android:textColor="@color/black66"
+                    android:textColorHint="@color/greyAA"
+                    android:textSize="14sp"
+                    app:layout_constraintBottom_toBottomOf="@id/tv_operator_first_contact_name_label"
+                    app:layout_constraintRight_toRightOf="parent"
+                    app:layout_constraintTop_toTopOf="@id/tv_operator_first_contact_name_label" />
+
+                <View
+                    android:id="@+id/v_operator_div2"
+                    android:layout_width="match_parent"
+                    android:layout_height="1dp"
+                    android:background="@color/greyF7"
+                    app:layout_constraintTop_toBottomOf="@id/tv_operator_first_contact_name_label"/>
+
+                <TextView
+                    android:id="@+id/tv_operator_first_contact_phone_label"
+                    android:layout_width="wrap_content"
+                    android:layout_height="48dp"
+                    android:gravity="center_vertical"
+                    android:text="@string/operator_contact_phone"
+                    android:textColor="@color/black66"
+                    android:textSize="14sp"
+                    app:layout_constraintLeft_toLeftOf="parent"
+                    app:layout_constraintTop_toBottomOf="@id/v_operator_div2" />
+
+                <EditText
+                    android:id="@+id/diyigePhone"
+                    android:layout_width="match_parent"
+                    android:layout_height="48dp"
+                    android:background="@null"
+                    android:focusable="false"
+                    android:drawablePadding="10dp"
+                    android:gravity="end|center_vertical"
+                    android:hint="@string/operator_phone_fill_in"
+                    android:drawableEnd="@mipmap/ic_operator_contact"
+                    android:textColor="@color/black66"
+                    android:textColorHint="@color/greyAA"
+                    android:textSize="14sp"
+                    app:layout_constraintBottom_toBottomOf="@id/tv_operator_first_contact_phone_label"
+                    app:layout_constraintRight_toRightOf="parent"
+                    app:layout_constraintTop_toTopOf="@id/tv_operator_first_contact_phone_label" />
+
+                <TextView
+                    android:id="@+id/tv_operator_first_contact_relation_label"
+                    android:layout_width="wrap_content"
+                    android:layout_height="48dp"
+                    android:gravity="center_vertical"
+                    android:text="@string/operator_contact_relation"
+                    android:textColor="@color/black66"
+                    android:textSize="14sp"
+                    app:layout_constraintLeft_toLeftOf="parent"
+                    app:layout_constraintTop_toBottomOf="@id/tv_operator_first_contact_phone_label"
+                    />
+
+                <EditText
+                    android:id="@+id/diyigeguanxiName"
+                    android:layout_width="match_parent"
+                    android:layout_height="48dp"
+                    android:background="@null"
+                    android:drawableEnd="@mipmap/ic_arraws"
+                    android:drawablePadding="10dp"
+                    android:focusable="false"
+                    android:gravity="end|center_vertical"
+                    android:hint="@string/operator_relation_choose"
+                    android:textColor="@color/black66"
+                    android:textColorHint="@color/greyAA"
+                    android:textSize="14sp"
+                    app:layout_constraintBottom_toBottomOf="@id/tv_operator_first_contact_relation_label"
+                    app:layout_constraintRight_toRightOf="parent"
+                    app:layout_constraintTop_toTopOf="@id/tv_operator_first_contact_relation_label" />
+
+                <View
+                    android:id="@+id/v_operator_div1"
+                    android:layout_width="match_parent"
+                    android:layout_height="1dp"
+                    android:background="@color/greyF7"
+                    app:layout_constraintTop_toBottomOf="@id/tv_operator_first_contact_relation_label"/>
+            </androidx.constraintlayout.widget.ConstraintLayout>
+
+            <Space
+                android:layout_width="wrap_content"
+                android:layout_height="10dp" />
+
+            <androidx.constraintlayout.widget.ConstraintLayout
+                android:id="@+id/cl_operator_second_contact"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@color/white">
+
+                <TextView
+                    android:id="@+id/tv_operator_second_contact_label"
+                    android:layout_width="wrap_content"
+                    android:layout_height="48dp"
+                    android:gravity="center"
+                    android:text="@string/operator_second_contact"
+                    android:textColor="@color/black33"
+                    android:textSize="16sp"
+                    app:layout_constraintLeft_toLeftOf="parent"
+                    app:layout_constraintTop_toTopOf="parent" />
+
+                <TextView
+                    android:id="@+id/tv_operator_second_contact_relation_label"
+                    android:layout_width="wrap_content"
+                    android:layout_height="48dp"
+                    android:gravity="center_vertical"
+                    android:text="@string/operator_contact_relation"
+                    android:textColor="@color/black66"
+                    android:textSize="14sp"
+                    app:layout_constraintLeft_toLeftOf="parent"
+                    app:layout_constraintTop_toBottomOf="@id/tv_operator_second_contact_phone_label"
+                    />
+
+                <EditText
+                    android:id="@+id/diergeguanxi"
+                    android:layout_width="match_parent"
+                    android:layout_height="48dp"
+                    android:background="@null"
+                    android:drawableEnd="@mipmap/ic_arraws"
+                    android:drawablePadding="10dp"
+                    android:focusable="false"
+                    android:gravity="end|center_vertical"
+                    android:hint="@string/operator_relation_choose"
+                    android:textColor="@color/black66"
+                    android:textColorHint="@color/greyAA"
+                    android:textSize="14sp"
+                    app:layout_constraintBottom_toBottomOf="@id/tv_operator_second_contact_relation_label"
+                    app:layout_constraintRight_toRightOf="parent"
+                    app:layout_constraintTop_toTopOf="@id/tv_operator_second_contact_relation_label" />
+
+                <View
+                    android:id="@+id/v_operator_div3"
+                    android:layout_width="match_parent"
+                    android:layout_height="1dp"
+                    android:background="@color/greyF7"
+                    app:layout_constraintTop_toBottomOf="@id/tv_operator_second_contact_relation_label"/>
+
+                <TextView
+                    android:id="@+id/tv_operator_second_contact_name_label"
+                    android:layout_width="wrap_content"
+                    android:layout_height="48dp"
+                    android:gravity="center_vertical"
+                    android:text="@string/operator_contact_name"
+                    android:textColor="@color/black66"
+                    android:textSize="14sp"
+
+                    app:layout_constraintLeft_toLeftOf="parent"
+                    app:layout_constraintTop_toBottomOf="@id/tv_operator_second_contact_label"/>
+
+                <EditText
+                    android:id="@+id/diergeName"
+                    android:layout_width="match_parent"
+                    android:layout_height="48dp"
+                    android:background="@null"
+                    android:drawableEnd="@mipmap/ic_operator_contact"
+                    android:drawablePadding="10dp"
+                    android:focusable="false"
+                    android:gravity="end|center_vertical"
+                    android:hint="@string/operator_name_fill_in"
+                    android:textColor="@color/black66"
+                    android:textColorHint="@color/greyAA"
+                    android:textSize="14sp"
+                    app:layout_constraintBottom_toBottomOf="@id/tv_operator_second_contact_name_label"
+                    app:layout_constraintRight_toRightOf="parent"
+                    app:layout_constraintTop_toTopOf="@id/tv_operator_second_contact_name_label" />
+
+                <View
+                    android:id="@+id/v_operator_div4"
+                    android:layout_width="match_parent"
+                    android:layout_height="1dp"
+                    android:background="@color/greyF7"
+                    app:layout_constraintTop_toBottomOf="@id/tv_operator_second_contact_name_label"/>
+
+                <TextView
+                    android:id="@+id/tv_operator_second_contact_phone_label"
+                    android:layout_width="wrap_content"
+                    android:layout_height="48dp"
+                    android:gravity="center_vertical"
+                    android:text="@string/operator_contact_phone"
+                    android:textColor="@color/black66"
+                    android:textSize="14sp"
+                    app:layout_constraintLeft_toLeftOf="parent"
+                    app:layout_constraintTop_toBottomOf="@id/v_operator_div4" />
+
+                <EditText
+                    android:id="@+id/diergePhone"
+                    android:layout_width="match_parent"
+                    android:layout_height="48dp"
+                    android:background="@null"
+                    android:focusable="false"
+                    android:gravity="end|center_vertical"
+                    android:drawablePadding="@dimen/liveness_10"
+                    android:hint="@string/operator_phone_fill_in"
+                    android:drawableEnd="@mipmap/ic_operator_contact"
+                    android:textColor="@color/black66"
+                    android:textColorHint="@color/greyAA"
+                    android:textSize="14sp"
+                    app:layout_constraintBottom_toBottomOf="@id/tv_operator_second_contact_phone_label"
+                    app:layout_constraintRight_toRightOf="parent"
+                    app:layout_constraintTop_toTopOf="@id/tv_operator_second_contact_phone_label" />
+            </androidx.constraintlayout.widget.ConstraintLayout>
+
+            <Space
+                android:layout_width="wrap_content"
+                android:layout_height="40dp" />
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+                <Button
+                    android:id="@+id/sureBtnsss"
+                    style="?android:attr/borderlessButtonStyle"
+                    android:layout_height="@dimen/liveness_50"
+                    android:layout_width="match_parent"
+                    android:layout_marginLeft="@dimen/liveness_20"
+                    android:layout_marginRight="@dimen/liveness_20"
+
+                    android:background="@drawable/new_next_btnbg"
+                    android:text="@string/operator_continue_auth"
+                    android:textColor="@color/white"
+                    android:layout_centerHorizontal="true"
+                    android:textSize="18sp"
+                    android:textStyle="bold"/>
+            </RelativeLayout>
+
+
+        </LinearLayout>
+    </ScrollView>
+</LinearLayout>

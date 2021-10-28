@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    >
+
+    <LinearLayout
+        android:layout_width="344dp"
+        android:layout_height="180dp"
+        android:layout_gravity="center_horizontal"
+        android:orientation="vertical"
+        android:background="@drawable/lianxiren_dailog"
+        >
+
+        <TextView
+            android:id="@+id/relatives"
+            android:layout_width="match_parent"
+            android:layout_height="60dp"
+            android:gravity="center"
+            android:text="@string/relatives"
+            android:textColor="@color/color3363da"
+            android:textStyle="bold"
+            android:textSize="18sp" />
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1px"
+            android:background="@color/colore8e8e8" />
+
+        <TextView
+            android:id="@+id/friend"
+            android:layout_width="match_parent"
+            android:layout_height="60dp"
+            android:gravity="center"
+            android:text="@string/friend"
+            android:textColor="@color/color3363da"
+            android:textStyle="bold"
+            android:textSize="18sp"/>
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1px"
+            android:background="@color/colore8e8e8" />
+        <TextView
+            android:id="@+id/spouse"
+            android:layout_width="match_parent"
+            android:layout_height="60dp"
+            android:gravity="center"
+            android:text="@string/spouse"
+            android:textColor="@color/color3363da"
+            android:textStyle="bold"
+            android:textSize="18sp"/>
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1px"
+            android:background="@color/colore8e8e8" />
+
+
+    </LinearLayout>
+
+    <TextView
+        android:id="@+id/tv_cancel"
+        android:layout_gravity="center_horizontal"
+        android:layout_width="344dp"
+        android:layout_marginTop="@dimen/liveness_20"
+        android:layout_height="60dp"
+        android:gravity="center"
+        android:text="@string/common_cancel"
+        android:textColor="@color/color3363da"
+        android:textSize="19sp"
+        android:textStyle="bold"
+        android:background="@drawable/lianxiren_dailog"/>
+
+
+</LinearLayout>

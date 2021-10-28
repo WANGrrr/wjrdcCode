@@ -1,0 +1,335 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white"
+    android:orientation="vertical"
+    android:padding="@dimen/liveness_15">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/liveness_24"
+
+        android:orientation="horizontal">
+        <RelativeLayout
+            android:id="@+id/id_back"
+            android:layout_marginLeft="@dimen/liveness_20"
+
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            >
+            <ImageView
+                android:id="@+id/id_back2"
+                android:layout_centerInParent="true"
+                android:src="@mipmap/back"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" />
+        </RelativeLayout>
+
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:text="@string/idcard_title"
+            android:textSize="17sp"
+            android:textStyle="bold"
+            android:textAlignment="center"
+            android:textColor="@color/black33"
+            android:layout_weight="1"
+            android:gravity="center"
+            />
+        <ImageView
+            android:id="@+id/id_back1"
+            android:layout_width="14dp"
+            android:layout_height="14dp"
+            android:layout_margin="13dp"></ImageView>
+    </LinearLayout>
+
+    <Space
+        android:layout_width="0dp"
+        android:layout_height="@dimen/liveness_15"></Space>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/user_input"
+        android:padding="15dp"
+        android:lineSpacingMultiplier="1.5"
+        android:textSize="12sp"
+        android:text="@string/idcard_text"
+        android:textColor="@color/texhui"/>
+    <Space
+        android:layout_width="0dp"
+        android:layout_height="@dimen/liveness_15"></Space>
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginTop="1dp"
+        android:background="@drawable/idcard_bg">
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+            android:padding="@dimen/liveness_20">
+
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="@dimen/liveness_10"
+                android:layout_marginTop="@dimen/liveness_25"
+                android:text="@string/idcard_name"
+                android:textColor="@color/texhui"
+                android:textSize="16sp"
+                />
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                >
+
+                <EditText
+                    android:layout_marginLeft="@dimen/liveness_10"
+                    android:layout_marginRight="@dimen/liveness_10"
+                    android:id="@+id/id_quanming"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:background="@color/white"
+                    android:gravity="center_vertical|left"
+                    android:hint="@string/input_full_name"
+                    android:textColorHint="@color/text_color"
+                    android:maxLines="1"
+                    android:inputType="text"
+                    android:minHeight="45dp"
+                    android:textStyle="bold"
+                    android:textColor="@color/black33"
+                    android:textSize="20sp" />
+
+                <ImageView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="@dimen/liveness_10"
+                    android:layout_marginRight="@dimen/liveness_10"
+                    android:layout_alignParentRight="true"
+                    android:layout_centerVertical="true"
+                    android:src="@mipmap/edit_img" />
+
+            </RelativeLayout>
+
+
+            <TextView style="@style/line"
+                android:layout_marginLeft="@dimen/liveness_10"
+                android:layout_marginRight="@dimen/liveness_10"
+                android:layout_marginTop="@dimen/liveness_5"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="@dimen/liveness_10"
+                android:layout_marginTop="@dimen/liveness_25"
+                android:text="@string/idsmall_name"
+                android:textColor="@color/texhui"
+                android:textSize="16sp"
+                />
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                >
+
+                <EditText
+                    android:layout_marginLeft="@dimen/liveness_10"
+                    android:layout_marginRight="@dimen/liveness_10"
+                    android:id="@+id/id_xiaoming"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:background="@color/white"
+                    android:gravity="center_vertical|left"
+                    android:hint="@string/small_name_tip"
+                    android:textColorHint="@color/text_color"
+                    android:maxLines="1"
+                    android:inputType="text"
+                    android:minHeight="45dp"
+                    android:textStyle="bold"
+                    android:textColor="@color/black33"
+                    android:textSize="20sp" />
+
+                <ImageView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="@dimen/liveness_10"
+                    android:layout_marginRight="@dimen/liveness_10"
+                    android:layout_alignParentRight="true"
+                    android:layout_centerVertical="true"
+                    android:src="@mipmap/edit_img" />
+
+            </RelativeLayout>
+
+
+            <TextView style="@style/line"
+                android:layout_marginLeft="@dimen/liveness_10"
+                android:layout_marginRight="@dimen/liveness_10"
+                android:layout_marginTop="@dimen/liveness_5"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="@dimen/liveness_10"
+                android:layout_marginTop="@dimen/liveness_25"
+                android:text="@string/idcard_id_num"
+                android:textColor="@color/texhui"
+                android:textSize="16sp"
+                />
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                >
+
+                <EditText
+                    android:layout_marginLeft="@dimen/liveness_10"
+                    android:layout_marginRight="@dimen/liveness_10"
+                    android:id="@+id/id_idCardNum"
+                    android:maxLength="13"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:background="@color/white"
+                    android:gravity="center_vertical|left"
+                    android:hint="@string/input_id_card"
+                    android:textColorHint="@color/text_color"
+                    android:maxLines="1"
+                    android:inputType="text"
+                    android:minHeight="45dp"
+                    android:textStyle="bold"
+                    android:textColor="@color/black33"
+                    android:textSize="20sp" />
+
+                <ImageView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="@dimen/liveness_10"
+                    android:layout_marginRight="@dimen/liveness_10"
+                    android:layout_alignParentRight="true"
+                    android:layout_centerVertical="true"
+                    android:src="@mipmap/edit_img" />
+
+            </RelativeLayout>
+
+            <TextView style="@style/line"
+                android:layout_marginLeft="@dimen/liveness_10"
+                android:layout_marginRight="@dimen/liveness_10"
+                android:layout_marginTop="@dimen/liveness_5"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="@dimen/liveness_10"
+                android:layout_marginTop="@dimen/liveness_25"
+                android:text="@string/idcard_birthday"
+                android:textColor="@color/texhui"
+                android:textSize="16sp"
+                />
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                >
+
+                <TextView
+                    android:id="@+id/id_user_birthday"
+                    android:layout_marginLeft="@dimen/liveness_10"
+                    android:layout_marginRight="@dimen/liveness_10"
+                    android:layout_marginTop="@dimen/liveness_10"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:background="@color/white"
+                    android:hint="@string/operator_relation_choose"
+                    android:textColorHint="@color/text_color"
+                    android:gravity="center_vertical|left"
+                    android:textSize="20sp"
+                    android:textStyle="bold"
+                    android:textColor="@color/texhui" />
+
+                <ImageView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="@dimen/liveness_10"
+                    android:layout_marginRight="@dimen/liveness_10"
+                    android:layout_alignParentRight="true"
+                    android:layout_centerVertical="true"
+                    android:src="@mipmap/edit_img" />
+
+            </RelativeLayout>
+
+            <TextView style="@style/line"
+                android:layout_marginLeft="@dimen/liveness_10"
+                android:layout_marginRight="@dimen/liveness_10"
+                android:layout_marginTop="@dimen/liveness_15"/>
+
+
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="15dp"
+                android:text="@string/idcard_sex"
+                android:textSize="17sp"
+                android:textColor="@color/texhui"
+                android:visibility="gone"
+                />
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <TextView
+                    android:id="@+id/id_user_sex"
+                    android:layout_width="match_parent"
+                    android:layout_height="45dp"
+                    android:background="@color/white"
+                    android:hint="@string/operator_relation_choose"
+                    android:textColorHint="@color/text_color"
+                    android:textSize="17sp"
+                    android:gravity="center_vertical|left"
+                    android:textColor="@color/black33"
+                    android:visibility="gone"/>
+
+                <ImageView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentRight="true"
+                    android:layout_centerVertical="true"
+                    android:src="@mipmap/arraw"
+                    android:visibility="gone"/>
+
+            </RelativeLayout>
+
+            <TextView style="@style/line"
+                android:visibility="gone"/>
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                >
+                <Button
+                    android:id="@+id/id_tijiao"
+                    android:layout_width="match_parent"
+                    android:layout_height="55dp"
+                    android:layout_centerHorizontal="true"
+                    android:layout_alignParentBottom="true"
+                    android:layout_marginBottom="44dp"
+                    android:background="@drawable/new_next_btnbg"
+                    android:text="@string/rz_tijiao"
+                    android:textStyle="bold"
+                    android:textSize="18sp"
+                    android:textAllCaps="false"
+                    android:textColor="@color/white" />
+
+
+            </RelativeLayout>
+
+        </LinearLayout>
+    </ScrollView>
+
+</LinearLayout>

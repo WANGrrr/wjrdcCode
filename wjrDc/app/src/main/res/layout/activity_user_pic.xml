@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".uiPakage.userPic">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="24dp"
+        android:orientation="horizontal">
+        <RelativeLayout
+            android:id="@+id/id_back"
+            android:layout_marginLeft="@dimen/liveness_20"
+
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            >
+            <ImageView
+                android:id="@+id/bacBtns"
+                android:layout_centerInParent="true"
+                android:src="@mipmap/back"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" />
+        </RelativeLayout>
+
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:text="@string/idcard_title"
+            android:textSize="20sp"
+            android:textStyle="bold"
+            android:textAlignment="center"
+            android:textColor="@color/black33"
+            android:layout_weight="1"
+            android:gravity="center"
+            />
+        <ImageView
+            android:id="@+id/id_back1"
+            android:layout_width="14dp"
+            android:layout_height="14dp"
+            android:layout_margin="13dp"></ImageView>
+
+    </LinearLayout>
+
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginTop="@dimen/liveness_5"
+        android:background="@drawable/idcard_bg"
+        android:id="@+id/idcard_stemp1"
+        android:orientation="vertical">
+        <ImageView
+            android:id="@+id/realname_img"
+            android:layout_width="235dp"
+            android:layout_height="160dp"
+            android:scaleType="fitXY"
+            android:src="@mipmap/shenfenzheng"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginTop="80dp"
+            ></ImageView>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/liveness_10"
+            android:layout_gravity="center_horizontal"
+            android:textStyle="bold"
+            android:textColor="@color/black33"
+            android:textSize="18sp"
+            android:text="@string/idcard_front"></TextView>
+        <TextView
+            android:layout_width="300dp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/liveness_5"
+            android:textAlignment="center"
+            android:layout_gravity="center_horizontal"
+            android:textColor="@color/black33"
+            android:textSize="15sp"
+            android:text="@string/idcard_shoot"></TextView>
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+            <Button
+                android:id="@+id/surebtns"
+                android:layout_height="55dp"
+                android:layout_width="match_parent"
+                android:layout_marginLeft="@dimen/liveness_20"
+                android:layout_marginRight="@dimen/liveness_20"
+
+                android:background="@drawable/new_next_btnbg"
+                android:text="Next step"
+                android:textStyle="bold"
+                android:textSize="18sp"
+                android:textAllCaps="false"
+                android:textColor="@color/white"
+                android:layout_centerHorizontal="true"
+                android:layout_alignParentBottom="true"
+                android:layout_marginBottom="44dp"
+
+                ></Button>
+        </RelativeLayout>
+
+
+    </LinearLayout>
+
+</LinearLayout>
